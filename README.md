@@ -1,3 +1,5 @@
+# ceci est un simple exemple de comment faire une horloge en react avec une classe
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
