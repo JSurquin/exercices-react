@@ -1,4 +1,4 @@
-const Button = ({onClick, children}) => {
-return <button onClick={onClick}>{children}</button>
+const Button = ({ onClick, children }) => {
+  return <button onClick={onClick}>{children}</button>
 }
-export default Button;
+export default Button
