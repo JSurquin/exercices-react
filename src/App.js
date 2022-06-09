@@ -1,8 +1,8 @@
 import React from 'react'
-import Clock from './components/Clock'
-import Toggle from './components/Toggle'
-import MonComposant from './components/MonComposantAEtat'
-import Button from './components/Button'
+import Clock from './components/atoms/Clock'
+import Toggle from './components/atoms/Toggle'
+import MonComposant from './components/atoms/MonComposantAEtat'
+import Button from './components/atoms/Button'
 import './App.css'
 
 class App extends React.Component {
