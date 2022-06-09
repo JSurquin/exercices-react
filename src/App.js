@@ -3,7 +3,9 @@ import Clock from './components/atoms/Clock'
 import Toggle from './components/atoms/Toggle'
 import MonComposant from './components/atoms/MonComposantAEtat'
 import Button from './components/atoms/Button'
+import Welcome from './components/molecules/Welcome'
 import './App.css'
+import WelcomeHooks from './components/molecules/WelcomeHooks'
 
 class App extends React.Component {
   constructor(props) {
@@ -43,7 +45,9 @@ class App extends React.Component {
         <Button onClick={() => this.updateMyCount()}>
           mon texte dynamique
         </Button>
-        <Button>le texte change alors que c'est le meme composant</Button>
+        <Button>le texte change alors que c'est le meme composant</Button> */
+        <Welcome />
+        <WelcomeHooks />
       </div>
     )
   }
