@@ -1,4 +1,8 @@
-# ceci est un simple exemple de comment faire une horloge en react avec une classe
+# ceci est un condensé des exercices que nous avons vu en react 
+
+## les solutions de chaques exercices seront déposée en plus de ce projet, un par un via des liens codeSanbox 
+
+ex : https://codesandbox.io/s/correction-lifecycle-hmzqqy
 
 # Getting Started with Create React App
 
