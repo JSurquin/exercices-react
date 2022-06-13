@@ -6,7 +6,7 @@ import Button from './components/atoms/Button'
 import Welcome from './components/molecules/Welcome'
 import './App.css'
 import WelcomeHooks from './components/molecules/WelcomeHooks'
-
+import ListAndKeysDynamic from './components/molecules/ListAndKeys'
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -32,22 +32,32 @@ class App extends React.Component {
   render() {
     return (
       <div className="App" style={this.style.monDesign}>
-        {/* Notre composant Toggle */}
+        <hr />
+        <h1>Notre composant toggle</h1>
         <Toggle />
-        {/* Notre composant MonComposant */}
+        <hr />
+        <h1>Notre composant "MonComposant"</h1>
         <MonComposant />
-        {/* Notre composant horloge */}
+        <hr />
+        <hr />
+        <h1>Notre composant horloge</h1>
         <Clock />
-        {/* notre composant sur l'exercice input OnChange  */}
-        {/* <Input /> */}
-        {/* notre exercice utilisant le composant Button pour incrementer un compteur */}
+        <h1>
+          notre exercice utilisant le composant Button pour incrementer un
+          compteur
+        </h1>
         {this.state.count}
         <Button onClick={() => this.updateMyCount()}>
           mon texte dynamique
         </Button>
         <Button>le texte change alors que c'est le meme composant</Button> */
+        <h1>Notre composant en classe</h1>
         <Welcome />
+        <h1>Notre composant fonctionnel</h1>
         <WelcomeHooks />
+        <hr />
+        <h1>Exercices sur les clefs dynamique</h1>
+        <ListAndKeysDynamic />
       </div>
     )
   }
