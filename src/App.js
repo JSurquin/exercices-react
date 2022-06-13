@@ -5,6 +5,8 @@ import MonComposant from './components/atoms/MonComposantAEtat'
 import Button from './components/atoms/Button'
 import Welcome from './components/molecules/Welcome'
 import './App.css'
+import Form from './components/molecules/Form'
+import FormClass from './components/molecules/FormEnClass'
 import WelcomeHooks from './components/molecules/WelcomeHooks'
 import ListAndKeysDynamic from './components/molecules/ListAndKeys'
 class App extends React.Component {
@@ -50,7 +52,6 @@ class App extends React.Component {
         <Button onClick={() => this.updateMyCount()}>
           mon texte dynamique
         </Button>
-        <Button>le texte change alors que c'est le meme composant</Button> */
         <h1>Notre composant en classe</h1>
         <Welcome />
         <h1>Notre composant fonctionnel</h1>
@@ -58,6 +59,12 @@ class App extends React.Component {
         <hr />
         <h1>Exercices sur les clefs dynamique</h1>
         <ListAndKeysDynamic />
+        <hr />
+        <h1>Mon formulaire en composant fonctionnel</h1>
+        <Form />
+        <hr />
+        <h1> Mon formulaire en class</h1>
+        <FormClass />
       </div>
     )
   }
